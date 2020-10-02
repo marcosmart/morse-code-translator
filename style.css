@@ -2,5 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightseagreen;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: #bebebebe;
+}
+main .title {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .body-content * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+main .body-content * .input-text {
+  width: 25%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #bebebebe;
+}
+main .body-content * .button-translate {
+  width: 10%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #bebebebe;
+  cursor: pointer;
 }
